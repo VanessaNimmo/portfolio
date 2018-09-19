@@ -37,6 +37,8 @@ Begun by gathering together images I liked on Pinterest. I'm into maths and natu
 
 Also spent time looking at websites with 'design eyes' on. What did I like about the websites I use every day? How were they fit for purpose? How were they not? And what have other developers used for their portfolios?
 
+Chose a colour palette with the help of coolors.co: [Colour Palette](https://coolors.co/55cea7-fffeff-fffdf7-0a2342-f0f7ee)
+
 ## Wireframes
 ## Personal logo (optional)
 ## Usability considerations
