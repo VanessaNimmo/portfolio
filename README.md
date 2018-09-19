@@ -2,7 +2,7 @@
 
 [Live website]()
 
-[GitHub Repository]()
+[GitHub Repository](https://github.com/VanessaNimmo/portfolio)
 
 ## Purpose
 
@@ -58,7 +58,7 @@ Finalise design and colour choices and finish wireframing in Figma. Set up proje
 
 **Wednesday**
 
-Get final approval for website design. Begin coding with plain HTML, focussing on using appropriate tags for content to make the site accessible to scree readers. Set up Netlify deployment.
+Get final approval for website design. Begin coding with plain HTML, focussing on using appropriate tags for content to make the site accessible to screen readers. Set up Netlify deployment.
 
 **Thursday**
 
@@ -66,7 +66,7 @@ Finish coding the static webpage.
 
 **Friday**
 
-Play with CSS animation.
+Write presentation. Play with CSS animation.
 
 **Monday**
 
