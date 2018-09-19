@@ -1,0 +1,48 @@
+body {
+  background: #FFFEFF;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: #0A2342;
+}
+
+h2 {
+  font-family: 'El Messiri', sans-serif;
+  font-size: 1.875em;
+  color: #0A2342;
+}
+
+p {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1.2em;
+}
+
+a {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1.2em;
+}
+
+nav {
+  font-size: 1.4em;
+}
+
+.headshot {
+  border-top-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Istok Web', sans-serif;
+}
+
+li {
+  padding: 10px;
+  font-size: 1.2em;
+}
