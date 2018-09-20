@@ -1,6 +1,6 @@
 # Portfolio - Vanessa Nimmo
 
-[Live website]()
+[Live website](https://vanessanimmo.github.io/)
 
 [GitHub Repository](https://github.com/VanessaNimmo/portfolio)
 
@@ -62,6 +62,8 @@ Finalise design and colour choices and finish wireframing in Figma. Set up proje
 
 Get final approval for website design. Begin coding with plain HTML, focussing on using appropriate tags for content to make the site accessible to screen readers. Set up Netlify deployment.
 
+NB: Netlify deployment didn't work, and discovered github.io, so went with that as it was very doable in a short amount of time.
+
 **Thursday**
 
 Finish coding the static webpage.
@@ -79,6 +81,10 @@ Presentation
 Trello board at setup:
 
 ![Starting Trello board](images/trello-board-start.png)
+
+Trello board Wednesday afternoon: 
+
+![Wednesday afternoon board](images/trello-wed-afternoon.png)
 
 ## Short Answer Q&A 
 
