@@ -1,0 +1,46 @@
+Website Content
+
+use canva for fonts that match website
+
+About
+  Hi! I'm a Protege Developer at MYOB. My pre-tech background is music (for info on that check out vanessnimmo.com), with a bit of prior study in physics and maths. I'm always excited to work on a complex algorithm or read about the latest developments in quantum computing.
+
+  I got into tech to build software that makes a difference in people's lives, and to work with awesome people. In my spare time I do vintage dance and hike in the mountains. Drop me a line to talk about any of the above!
+
+Skills
+  SQL, Postgres, SQLlite
+  React
+  JavaScript
+  Ruby
+  Ruby On Rails
+  MongoDB
+  Github
+  CSS 3/4
+  HTML 5
+  Node.js
+  Express
+  Vue.js
+  VS Code
+
+Blog - choose as many of these as make sense for the design
+  I'm half of blogging duo King Nimmo - check out some of my articles on Medium.
+  What actually is a git commit? https://medium.com/@nimmoking/what-actually-is-a-git-commit-f67529909902
+  Where there's a will there's a method
+  https://medium.com/@nimmoking/where-theres-a-will-there-s-a-method-f39bb2751632
+  Naming Fears
+  https://medium.com/@nimmoking/naming-fears-41531d5416a9
+  Getting Started with Code
+  https://medium.com/@nimmoking/getting-started-with-code-52831863f2d3
+  Transition into Tech
+  https://medium.com/@nimmoking/transition-into-tech-2990d3b403fb
+
+Portfolio - have this lower down at the moment as there isn't much to put in, but could put it higher up later.
+  Placeholders?
+  -screenshot of terminal app
+
+Contact
+  Form - name, email, subject, message
+
+Github - my profile - https://github.com/VanessaNimmo
+
+LinkedIn - my profile - https://www.linkedin.com/in/vanessa-nimmo/
