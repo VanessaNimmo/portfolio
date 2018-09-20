@@ -131,15 +131,72 @@ header {
   background-color: #55CEA7;
 }
 
+#blog p {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+#blog h3 {
+  padding: 0;
+  margin: 0;
+}
+
 .last-blog {
   margin-bottom: 220px;
 }
 .portfolio-bkg {
   background: #FFFEFF;
+  background-image: url('images/small-wave.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.portfolio1 {
+  width: 100%;
+  
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+.portfolio2 {
+  width: 80%;
+  float: right;
+  right: 0px;
+  padding-bottom: 140px;
 }
 
 .contact-bkg {
   background: #F0F7EE;
+  padding: 10px;
+}
+
+form {
+ 
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #0A2342;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #0A2342;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:  #55CEA7;
+  height: 40px;
 }
 
 a {
@@ -210,7 +267,7 @@ li {
   font-size: 1em;
 }
 
-.button {
+.button a:link {
   display: inline-block;
   width: 100%;
   height: 40px;
@@ -219,6 +276,7 @@ li {
   border-top: 1px solid #0A2342;
   border-bottom: 1px solid #0A2342;
   margin-bottom: 10px;
+  padding-top: 12px;
 }
 
 /* For tiny screens */
