@@ -71,27 +71,27 @@ div {
 
 .about-bkg {
   background: #F0F7EE;
-  grid-area: 1 / 2 / span 1 / span 1;
+  grid-area: 2 / 1 / span 1 / span 1;
 }
 
 .skills-bkg {
   background-color: #FFFDF7;
-  grid-area: 1 / 3 / span 1 / span 1;
+  grid-area: 3 / 1 / span 1 / span 1;
 }
 
 .blog-bkg {
   background: #F0F7EE;
-  grid-area: 1 / 4 / span 1 / span 1;
+  grid-area: 4 / 1 / span 1 / span 1;
 }
 
 .portfolio-bkg {
   background: #FFFEFF;
-  grid-area: 1 / 5 / span 1 / span 1;
+  grid-area: 5 / 1 / span 1 / span 1;
 }
 
 .contact-bkg {
   background: #F0F7EE;
-  grid-area: 1 / 6 / span 1 / span 1;
+  grid-area: 6 / 1 / span 1 / span 1;
 }
 
 a {
@@ -173,6 +173,7 @@ li {
   margin-bottom: 10px;
 }
 
+/* For tiny screens */
 @media only screen and (max-width: 320px) {
   nav {
     grid-template-columns: 1fr 1fr 1fr;
@@ -200,6 +201,7 @@ li {
   }
 }
 
+/* For most phones */
 @media only screen and (min-width: 600px) {
   /* make a floating nav bar for the bigger screens */
   body {
@@ -238,11 +240,58 @@ li {
   }
 }
 
+/* For tablets */
 @media only screen and (min-width: 900px) {
-  /* make a floating nav bar for the bigger screens */
+  /* make a floating nav bar for the bigger screens? */
+
+  #about-header {
+    display: none;
+  }
+
+  div {
+    margin: 0;
+  }
  
 }
 
+
+/* For laptops */
 @media only screen and (min-width: 1200px) {
+
+  p {
+    max-width: 36em;
+    padding: 30px;
+  }
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .header-bkg {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-image: url("images/big-left-wave.svg")
+  }
+
+  .about-bkg {
+    background: #FFFEFF;
+    grid-area: 1 / 2 / span 1 / span 1;
+    align-content: center;
+  }
+
+  .skills-bkg {
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+
+  .blog-bkg {
+    grid-area: 2 / 2 / span 1 / span 1;
+  }
+
+  .contact-bkg {
+    grid-area: 3 / 1 / span 1 / span 1;
+  }
+
+  .portfolio-bkg {
+    grid-area: 3 / 2 / span 1 / span 1;
+  }
 
 }
