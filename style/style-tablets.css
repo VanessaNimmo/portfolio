@@ -1,0 +1,10 @@
+
+/* For tablets */
+@media only screen and (min-width: 900px) {
+  /* make a floating nav bar for the bigger screens? */
+
+  div {
+    margin: 0;
+  }
+ 
+}

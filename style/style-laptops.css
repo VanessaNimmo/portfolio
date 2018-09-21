@@ -1,0 +1,64 @@
+
+/* For laptops */
+@media only screen and (min-width: 1200px) {
+
+  .box {
+    width: 50%;
+  }
+
+  p {
+    max-width: 36em;
+    padding: 30px;
+  }
+
+  .container1 {
+    background-image: url("../assets/big-left-wave.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 100%;
+  }
+
+  .header-bkg {
+    background-image: none;
+  }
+ 
+  .about-bkg {
+    background: #FFFEFF;
+    z-index: -10;
+    align-content: center;
+  }
+
+  .container2 {
+    background-image: url("../assets/big-wave-right.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 100%;
+  }
+
+  .skills-bkg {
+    background-image: none;
+    z-index: -10;
+  }
+
+  .blog-bkg {
+    background-image: none;
+    z-index: -10;
+  }
+
+  .container3 {
+    background-image: url("../assets/big-left-wave.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 100%;
+  }
+
+  .contact-bkg {
+    background-image: none;
+    z-index: -10;
+  }
+
+  .portfolio-bkg {
+    background-image: none;
+    z-index: -10;
+  }
+}

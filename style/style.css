@@ -13,22 +13,23 @@ h1 {
   color: #0A2342;
 }
 
-h2 {
+h2, h3, p, a {
   font-family: 'Istok Web', sans-serif;
+}
+
+h2 {
   font-size: 1.875em;
   color: #0A2342;
   padding: 10px;
 }
 
 h3 {
-  font-family: 'Istok Web', sans-serif;
   font-size: 1.2em;
   color: #0A2342;
   padding-left: 10px;
 }
 
 p {
-  font-family: 'Istok Web', sans-serif;
   font-size: 1em;
   color: #0A2342;
   padding: 10px;
@@ -56,9 +57,6 @@ article {
   padding-right: 30px;
 }
 
-header {
-}
-
 .container1 {
   display: flex;
   flex-direction: row;
@@ -83,7 +81,7 @@ header {
 }
 
 .header-bkg {
-  background-image: url('images/small-wave.svg');
+  background-image: url('../assets/small-wave.svg');
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 100%;
@@ -91,7 +89,7 @@ header {
 
 .about-bkg {
   background: #F0F7EE;
-  background-image: url('images/side-wave-right.svg');
+  background-image: url('../assets/side-wave-right.svg');
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -106,14 +104,29 @@ header {
 
 .skills-bkg {
   background-color: #FFFDF7;
-  background-image: url('images/small-wave-right.svg');
+  background-image: url('../assets/small-wave-right.svg');
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
+#skills a {
+  border: 2px solid #0A2342;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+#skills a:hover {
+  background-color: #55CEA7;
+}
+
 .blog-bkg {
   background: #F0F7EE;
-  background-image: url('images/small-blog-wave.svg');
+  background-image: url('../assets/small-blog-wave.svg');
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -145,16 +158,16 @@ header {
 .last-blog {
   margin-bottom: 220px;
 }
+
 .portfolio-bkg {
   background: #FFFEFF;
-  background-image: url('images/small-wave.svg');
+  background-image: url('../assets/small-wave.svg');
   background-repeat: no-repeat;
   background-position: left bottom;
 }
 
 .portfolio1 {
   width: 100%;
-  
 }
 
 #portfolio h2 {
@@ -171,24 +184,20 @@ header {
 .contact-bkg {
   background: #F0F7EE;
   padding: 10px;
+  background-image: url('../assets/contact-wave.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
-form {
- 
+#contact h2 {
+  padding-top: 80px;
+  text-align: center;
 }
 
-input[type=text] {
+input[type=text], input[type=email] {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #0A2342;
-}
-
-input[type=email] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
   display: inline-block;
   border: 1px solid #0A2342;
 }
@@ -197,10 +206,10 @@ input[type=submit] {
   width: 100%;
   background-color:  #55CEA7;
   height: 40px;
+  margin-top: 20px;
 }
 
 a {
-  font-family: 'Istok Web', sans-serif;
   color: #636161;
   padding: 5px;
 }
@@ -265,140 +274,4 @@ ul {
 li {
   padding: 10px;
   font-size: 1em;
-}
-
-.button a:link {
-  display: inline-block;
-  width: 100%;
-  height: 40px;
-  background-color: #55CEA7;
-  text-align: center;
-  border-top: 1px solid #0A2342;
-  border-bottom: 1px solid #0A2342;
-  margin-bottom: 10px;
-  padding-top: 12px;
-}
-
-/* For tiny screens */
-@media only screen and (max-width: 320px) {
-  nav {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  .nav1 {
-    grid-area: 1 / 1 / span 1 / span 1;
-  }
-  
-  .nav2 {
-    grid-area: 1 / 2 / span 1 / span 1;
-  }
-  
-  .nav3 {
-    grid-area: 1 / 3 / span 1 / span 1;
-  }
-  
-  .nav4 {
-    grid-area: 2 / 1 / span 1 / span 1;
-  }
-  
-  .nav5 {
-    grid-area: 2 / 2 / span 1 / span 1;
-  }
-}
-
-/* For most phones */
-@media only screen and (min-width: 600px) {
-  /* make a floating nav bar for the bigger screens */
-  body {
-    font-size: 18pt;
-  }
-  
-  nav {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-
-  .nav1 {
-    display: none;
-  }
-  
-  .nav2 {
-    grid-area: 1 / 1 / span 1 / span 1;
-  }
-  
-  .nav3 {
-    grid-area: 1 / 2 / span 1 / span 1;
-  }
-  
-  .nav4 {
-    grid-area: 1 / 3 / span 1 / span 1;
-  }
-  
-  .nav5 {
-    grid-area: 1 / 4 / span 1 / span 1;
-  }
-
-  .button {
-    width: 300px;
-    margin: 10px;
-    border: 1px solid #0A2342;
-  }
-}
-
-/* For tablets */
-@media only screen and (min-width: 900px) {
-  /* make a floating nav bar for the bigger screens? */
-
-  div {
-    margin: 0;
-  }
- 
-}
-
-
-/* For laptops */
-@media only screen and (min-width: 1200px) {
-
-  .box {
-    width: 50%;
-  }
-
-  p {
-    max-width: 36em;
-    padding: 30px;
-  }
-
-  .header-bkg {
-    background-image: none;
-  }
-  .container1 {
-    background-image: url("images/big-left-wave.svg");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    width: 100%;
-  }
-
-  .about-bkg {
-    background: #FFFEFF;
-
-    align-content: center;
-  }
-
-  .skills-bkg {
- 
-  }
-
-  .blog-bkg {
-  
-  }
-
-  .contact-bkg {
-   
-  }
-
-  .portfolio-bkg {
-   
-  }
-
 }
