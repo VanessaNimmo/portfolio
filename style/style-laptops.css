@@ -28,6 +28,30 @@
     align-content: center;
   }
 
+  #about-header {
+    display: none;
+  }
+
+  .about-pic {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    padding-top: 50px;
+  }
+
+  .make-space {
+    padding-top: 100px;
+    padding-bottom: 300px;
+  }
+
+  .squash {
+    margin-left: 100px;
+    text-align: right;
+  }
+
   .container2 {
     background-image: url("../assets/big-wave-right.svg");
     background-repeat: no-repeat;
@@ -37,16 +61,48 @@
 
   .skills-bkg {
     background-image: none;
-    z-index: -10;
+    text-align: center;
+  }
+  
+  #skills a {
+    border: 2px solid #0A2342;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    margin-top: 30px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+  }
+  
+  #skills a:hover {
+    background-color: #55CEA7;
   }
 
   .blog-bkg {
     background-image: none;
-    z-index: -10;
+    text-align: center;
+  }
+
+  #blog a {
+    border: 2px solid #0A2342;
+    padding: 5px;
+    width: 10em;
+    height: 10em;
+    overflow: scroll;
+    margin: 30px 10px 10px 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    box-sizing : border-box;
+  }
+  
+  #blog a:hover {
+    background-color: #55CEA7;
   }
 
   .container3 {
-    background-image: url("../assets/big-left-wave.svg");
+    background-image: url("../assets/small-wave.svg");
     background-repeat: no-repeat;
     background-position: left bottom;
     width: 100%;
@@ -55,11 +111,14 @@
   .contact-bkg {
     background-image: none;
     z-index: -10;
-    width: 50%;
+    width: 48%;
+    order: -1;
   }
 
   .portfolio-bkg {
-    background-image: none;
-    z-index: -10;
+    background-image: url('../assets/small-blog-wave.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 50px;
   }
 }
