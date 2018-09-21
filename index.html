@@ -15,31 +15,31 @@
   </head>
   <body>
     <div class="container1">
-        <div class="header-bkg box">
-          <header>
-            <h1 id="top" class="left">Vanessa</h1>
-            <h1 class="right">Nimmo</h1>
-            <nav>
-              <a href="#about" class="nav1">About</a>
-              <a href="#skills" class="nav2">Skills</a>
-              <a href="#blog" class="nav3">Blog</a>
-              <a href="#contact" class="nav4">Contact</a>
-              <a href="#portfolio" class="nav5">Portfolio</a>
-            </nav>
-            <div class="make-space"><img src="assets/bio-pic.jpeg" class="headshot center" alt="Picture of Vanessa, face only. She is smiling."/></div>
-          </header>
-        </div>
-        <div class="about-bkg box">
-          <article id="about">
-              <img src="assets/reflection-square.png" alt="" class="about-pic"/>
-              <h2 id="about-header">About</h2>
-              <p>Hi! I'm a Protege Developer at MYOB. My pre-tech background is music (for info on that check out <a href="https://www.oldtechnewdecks.com" target="_blank">my music page.</a>), with a bit of prior study in physics and maths. I'm always excited to work on a complex algorithm or read about the latest developments in quantum computing.</p>
-
-              <p class="squash-left">I got into tech to build software that makes a difference in people's lives, and to work with awesome people. In my spare time I do vintage dance and hike in the mountains. Drop me a line to talk about any of the above!</p>
-          </article>
-        </div>
+      <div class="header-bkg box">
+        <header>
+          <h1 id="top" class="left">Vanessa</h1>
+          <h1 class="right">Nimmo</h1>
+          <nav>
+            <a href="#about" class="nav1">About</a>
+            <a href="#skills" class="nav2">Skills</a>
+            <a href="#blog" class="nav3">Blog</a>
+            <a href="#contact" class="nav4">Contact</a>
+            <a href="#portfolio" class="nav5">Portfolio</a>
+          </nav>
+          <div class="make-space"><img src="assets/bio-pic.jpeg" class="headshot center" alt="Picture of Vanessa, face only. She is smiling."/></div>
+        </header>
       </div>
-      <div class=container2>
+      <div class="about-bkg box">
+        <article id="about">
+            <img src="assets/reflection-square.png" alt="" class="about-pic"/>
+            <h2 id="about-header">About</h2>
+            <p>Hi! I'm a Protege Developer at MYOB. My pre-tech background is music (for info on that check out <a href="https://www.oldtechnewdecks.com" target="_blank">my music page.</a>), with a bit of prior study in physics and maths. I'm always excited to work on a complex algorithm or read about the latest developments in quantum computing.</p>
+
+            <p class="squash-left">I got into tech to build software that makes a difference in people's lives, and to work with awesome people. In my spare time I do vintage dance and hike in the mountains. Drop me a line to talk about any of the above!</p>
+        </article>
+      </div>
+    </div>
+    <div class=container2>
       <div class="skills-bkg box">
         <article id="skills">
           <h2>Skills</h2>
@@ -68,7 +68,7 @@
           <h2>Blog</h2>
           <p>I'm half of tech blogging duo King Nimmo - check out some of my articles on Medium.</p>
           <a href="https://medium.com/@nimmoking/youre-a-wizard-e76799493735" target="_blank"><h3>You're a Wizard</h3><p>When you spend a lot of time messing about with your computer, sometimes you break stuff...</p></a>
-          <a href="https://medium.com/@nimmoking/transition-into-tech-2990d3b403fb" target="_blank"><h3>Transition into Tech</h3><p>I started a new learning experience this week. A coding fast track bootcamp...</p></a>
+          <a href="https://medium.com/@nimmoking/transition-into-tech-2990d3b403fb" target="_blank"><h3>Transition into Tech</h3><p>I started a new learning experience this week. A coding fast track bootcamp. The first thing to say about it is that it has been amazing...</p></a>
           <a href="https://medium.com/@nimmoking/what-actually-is-a-git-commit-f67529909902" target="_blank"><h3>What actually is a git commit?</h3><p>Earlier this year I tasked myself with learning git¹, as I’d heard it was the sort of thing that software developers use a lot...</p></a>
           <a href="https://medium.com/@nimmoking/where-theres-a-will-there-s-a-method-f39bb2751632" target="_blank" class="last-blog"><h3>Where there's a will there's a method</h3><p>Many writers of software design articles and textbooks recommend starting with broad outlines when designing solutions, then working down to details...</p></a>
         </article>
@@ -86,14 +86,19 @@
         <article id="contact">
           <h2>Contact</h2>
           <form action="https://formspree.io/vanessanimmo@live.com" method="POST">
-            Name:<input type="text" name="name" placeholder="Your name...">
-            Email:<input type="email" name="_replyto" placeholder="Your email...">
-            Message:<input type="text" name="message" placeholder="Your message!">
-            <input type="text" name="_gotcha" style="display:none" />
-            <input type="submit" value="Send">
+            <fieldset>
+              Name:<input type="text" name="name" placeholder="Your name...">
+              Email:<input type="email" name="_replyto" placeholder="Your email...">
+              Message:<input type="text" name="message" placeholder="Your message!">
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="submit" value="Send">
+            </fieldset>
           </form>
         </article>
-        <a href="#top"><p style="text-align: center">Top of Page</p></a>
+        <footer>
+          <a href="#top"><p style="text-align: center">Top of Page</p></a>
+          <p>Created by Vanessa Nimmo in 2018</p>
+        </footer>
       </div>
     </div>
   </body>

@@ -55,6 +55,7 @@
   .contact-bkg {
     background-image: none;
     z-index: -10;
+    width: 50%;
   }
 
   .portfolio-bkg {
