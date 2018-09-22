@@ -124,10 +124,16 @@ Trello board Friday afternoon:
 
 Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
-Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+The work of Vint Cerf and co. in creating the first internetwork protocol (TCP/IP) in the 1970s laid the path for the joining of existing computer networks into one vast network. On January 1st, 1983, the ARPANET (a computer network of US educational and government institutions) switched to this new protocol and became the core of what is now the internet, using IPv4 for addressing.
 
-The location of files or resources on the internet is addressed using the Domain Name System (DNS). Rather than requiring humans to remember the IP addresses used by routers, the DNS uses text-based addressing, which is converted as it moves down the layers of the computer system and into the internet. When you put a website into the address bar, the browser sends an HTTP request to the relevant web server (found using the DNS), which sends back the requested website for the browser to display on your screen. 
+In the 1980s Tim Berners-Lee proposed the information management system on which the internet is based (HTTP) and did the first successful HTTP communication in March 1989 – this breakthrough allowed the web to scale.
+
+Commercial internet providers begun in the late 80s and took off in the 90s. It became clear that we were going to run out of IP addresses. An updated standard was created – IPv6. In January of 2011 we ran out of addresses in IPv4, and the migration to IPv6 is ongoing.
+
+Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+
+The location of files or resources on the internet is addressed using the Domain Name System (DNS). Rather than requiring humans to remember the IP addresses used by routers, the DNS uses text-based addressing, which is converted as it moves down the layers of the network. Routers are the traffic directors of the internet, forwarding network traffic along on its journey – an HTTP request will go through many routers on the way to and from the server. When you put a website into the address bar, the browser sends an HTTP request to the relevant web server (found using the DNS). The server receives and interprets the request, finds the files it has that you asked for, and sends them back to your browser. The web browser interprets the files sent by the server, be they HTML, CSS, jpg, etc., and renders the web page on your screen.
 
 Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
-Wifi
+Right from its inception the internet was intended to be an open protocol, and the information about how to communicate on it was always freely available. The development of Wi-Fi, from the first test packet on the ALOHAnet in 1971 to the release of the first version of the 802.11 protocol in 1997, has been a significant part of both opening up the internet and making it even more useful. Wi-Fi allows the internet to be accessible on a much wider variety of devices and therefore by more people, opening up the spread of information and driving the creation of devices that utilize this feature – that we have information on-demand from all over the world in a moment. Anyone with a Wi-Fi enabled device has access to information which previously may have only been in libraries, and can contribute to the collective knowledge stored on the internet.
