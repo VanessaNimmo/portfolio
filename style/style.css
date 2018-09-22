@@ -131,6 +131,12 @@ article {
   background-image: url('../assets/small-blog-wave.svg');
   background-repeat: no-repeat;
   background-position: right bottom;
+  padding-bottom: 220px;
+}
+
+.blog-intro {
+  width: 80%;
+  margin: 0 auto;
 }
 
 #blog a {
@@ -158,23 +164,35 @@ article {
   margin: 0;
 }
 
-.last-blog {
-  margin-bottom: 220px;
-}
-
 .portfolio-bkg {
   background: #FFFEFF;
   background-image: url('../assets/small-wave.svg');
   background-repeat: no-repeat;
   background-position: left bottom;
+  padding-bottom: 140px;
 }
 
-.portfolio1 {
-  width: 98%;
-  float: left;
-  margin-top: 0px;
-  padding-top: 0px;
+.link-pic {
+  width: 100%;
+  padding-top: 55.5%;
   display: block;
+  background-size: 100%;
+}
+
+.link-pic2 {
+  width: 75%;
+  float: right;
+  padding-top: 56%;
+  display: block;
+  background-size: 100%;
+}
+
+#portfolio1 {
+  background-image: url("../assets/carrot-budget-app.png");
+}
+
+#portfolio2 {
+  background-image: url("../assets/mountain-tales.png");
 }
 
 #portfolio h2 {
@@ -191,7 +209,7 @@ article {
 
 .contact-bkg {
   background: #F0F7EE;
-  padding: 10px;
+  padding: 0;
   background-image: url('../assets/contact-wave.svg');
   background-repeat: no-repeat;
   background-position: left top;
@@ -208,6 +226,7 @@ fieldset {
   border: 2px groove #55CEA7;
   width: 100%;
   box-sizing : border-box;
+  margin: 0 auto;
 }
 
 #contact h2 {
@@ -215,10 +234,10 @@ fieldset {
   text-align: center;
 }
 
-input[type=text], input[type=email] {
+input[type=text], input[type=email], textarea {
   width: 100%;
   padding: 10px 5px 10px 5px;
-  margin: 10px 0px 10px 0px;
+  margin: 10px auto;
   display: inline-block;
   border: 1px solid #0A2342;
   box-sizing : border-box;
@@ -228,7 +247,7 @@ input[type=submit] {
   width: 100%;
   background-color:  #55CEA7;
   height: 40px;
-  margin-top: 20px;
+  margin-top: 20px auto 0 auto;
   font-size: 1em;
 }
 
