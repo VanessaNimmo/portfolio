@@ -39,7 +39,7 @@ Portfolio - have this lower down at the moment as there isn't much to put in, bu
   -screenshot of terminal app
 
 Contact
-  Form - name, email, subject, message
+  Form - name, email, message
 
 Github - my profile - https://github.com/VanessaNimmo
 
