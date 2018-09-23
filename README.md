@@ -4,6 +4,15 @@
 
 [GitHub Repository](https://github.com/VanessaNimmo/portfolio)
 
+[The Website](#the-website)
+
+[The Design](#the-design)
+
+[The Process](#the-process)
+
+[Short Answer Q&A](#short-answer-q&a)
+
+# The Website
 ## Purpose
 
 This website is intended to represent me and develop my reputation in the tech industry in the long term.
@@ -25,6 +34,14 @@ As a one-page site, a sitemap is not necessarily.
 
 ## Screenshots
 
+**Very small screen navigation**
+
+**Mobile**
+
+**Tablet**
+
+**Laptop**
+
 ## Target Audience
 
 The usual audience for a professional profile is employers and recruiters. Knowing that I have a job at MYOB directly after the CA course impacted my design decisions and encouraged me to think longer-term. I've considered the target audience for this website to be my existing employer (for understanding what internal roles I might suit) and also MeetUp and Conference organisers, who are often other developers.
@@ -33,20 +50,20 @@ The usual audience for a professional profile is employers and recruiters. Knowi
 
 The site is built using html and css. It is hosted on Github Pages, which desploys continuosly from the GitHup Repository, with each push triggering a build.
 
-# Design Process
+# The Design
 ## Inspiration
 
 Begun by gathering together images I liked on Pinterest. I'm into maths and nature, so focussed on these areas looking for common themes.
 
 [Pinterest Board](https://pin.it/o2zl7vze7ca2xa)
 
-![Section of Pinterest Board](assets/pinterest-section.png)
+![Section of Pinterest Board](docs/pinterest-section.png)
 
 Also spent time looking at websites with 'design eyes' on. What did I like about the websites I use every day? How were they fit for purpose? How were they not? And what have other developers used for their portfolios?
 
 Chose a colour palette with the help of coolors.co: [Colour Palette](https://coolors.co/55cea7-fffeff-fffdf7-0a2342-f0f7ee)
 
-![Colour Palette](assets/colour-palette.png)
+![Colour Palette](docs/colour-palette.png)
 
 ## Wireframes
 
@@ -54,16 +71,16 @@ All wireframes for the project can be found in [this Figma file](https://www.fig
 
 Mobile
 
-![First half of mobile design](assets/phone-design-1.png)
-![Second half of mobile design](assets/phone-design-2.png)
+![First half of mobile design](docs/phone-design-1.png)
+![Second half of mobile design](docs/phone-design-2.png)
 
 Tablet
 
-![Tablet design](assets/ipad-design.png)
+![Tablet design](docs/ipad-design.png)
 
 Laptop
 
-![Laptop design](assets/laptop-design.png)
+![Laptop design](docs/laptop-design.png)
 
 ## Usability considerations
 
@@ -73,7 +90,7 @@ Colours: used to colours to ensure high contrast ratios for all text.
 
 Font choices: as well as using clean sans serif fonts to aid in readability, I set font size using points in the body, and then using ems for the rest of the site. This means that even on screens with high pixel density the font won't get too small. Font is also smaller for mobile devices, as they are generally held closer to the user.
 
-# Planning Process
+# The Process
 ## Project plan & timeline
 
 **Pre-work**
@@ -110,17 +127,21 @@ Presentation
 
 Trello board at setup:
 
-![Starting Trello board](assets/trello-board-start.png)
+![Starting Trello board](docs/trello-board-start.png)
 
 Trello board Wednesday afternoon: 
 
-![Wednesday afternoon board](assets/trello-wed-afternoon.png)
+![Wednesday afternoon board](docs/trello-wed-afternoon.png)
 
 Trello board Friday afternoon:
 
-![Friday afternoon board](assets/trello-Friday-afternoon.png)
+![Friday afternoon board](docs/trello-Friday-afternoon.png)
 
-## Short Answer Q&A 
+Trello board Sunday afternoon:
+
+![Sunday afternoon board](docs/trello-board-Sunday-afternoon.png)
+
+# Short Answer Q&A 
 
 Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
@@ -137,3 +158,7 @@ The location of files or resources on the internet is addressed using the Domain
 Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
 Right from its inception the internet was intended to be an open protocol, and the information about how to communicate on it was always freely available. The development of Wi-Fi, from the first test packet on the ALOHAnet in 1971 to the release of the first version of the 802.11 protocol in 1997, has been a significant part of both opening up the internet and making it even more useful. Wi-Fi allows the internet to be accessible on a much wider variety of devices and therefore by more people, opening up the spread of information and driving the creation of devices that utilize this feature – that we have information on-demand from all over the world in a moment. Anyone with a Wi-Fi enabled device has access to information which previously may have only been in libraries, and can contribute to the collective knowledge stored on the internet.
+
+**References**
+
+Tanenbaum, Andrew S. "Computer Networks" Fourth Edition. Pearson Education Inc. 2003.

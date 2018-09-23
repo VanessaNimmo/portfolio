@@ -199,14 +199,6 @@ article {
   text-align: center;
 }
 
-.portfolio2 {
-  width: 80%;
-  float: right;
-  right: 0px;
-  padding-bottom: 140px;
-  display: block;
-}
-
 .contact-bkg {
   background: #F0F7EE;
   padding: 0;
@@ -249,6 +241,17 @@ input[type=submit] {
   height: 40px;
   margin-top: 20px auto 0 auto;
   font-size: 1em;
+  transition: all .2s ease-in-out;
+}
+
+input[type=submit]:hover { transform: scale(1.01); }
+
+input[type=submit]:active{
+  background: #0A2342;
+}
+
+input[type=submit]:focus{
+  background: #0A2342;
 }
 
 a {
@@ -295,6 +298,10 @@ nav {
 .nav5 {
   grid-area: 2 / 4 / span 1 / span 1;
 }
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
 
 .headshot {
   border-top-right-radius: 70%;

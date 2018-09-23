@@ -7,9 +7,74 @@
     margin: 0;
   }
 
+  .container1 {
+    background-image: url("../assets/left-medium-wave.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    width: 100%;
+  }
+
+  .container2 {
+    background: #F0F7EE;
+    background-image: url("../assets/right-medium-wave.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+  }
+
+  .container3 {
+    background: #FFFDF7;
+    background-image: url("../assets/left-medium-wave.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+    width: 100%;
+  }
+
   .make-space {
-    padding-top: 150px;
-    padding-bottom: 300px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+
+  .header-bkg {
+    background: none;
+  }
+
+  .about-bkg {
+    background: none;
+    align-content: center;
+  }
+
+  #about-header {
+    display: none;
+  }
+
+  .about-pic {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    padding-top: 50px;
+  }
+
+  .skills-bkg {
+    background: none;
+    text-align: center;
+    padding-bottom: 200px;
   }
  
+  .blog-bkg {
+    background: none;
+    text-align: center;
+  }
+
+  .contact-bkg {
+    background: none;
+    padding-top: 100px;
+  }
+
+  .portfolio-bkg {
+    background: none;
+  }
 }
