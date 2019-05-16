@@ -39,13 +39,11 @@
     width: 100%;
   }
 
-  .skills-bkg {
-    
+  .speaking-bkg {
     padding-bottom: 100px;
   }
   
-  #skills a {
-    border: 2px solid #0A2342;
+  #speaking a {
     padding: 0 10px 0 10px;
     margin: 0;
     margin-top: 30px;
@@ -54,26 +52,14 @@
     display: inline-block;
     width: auto;
   }
-  
-  #skills a:hover {
-    background-color: #55CEA7;
-  }
 
   #blog a {
-    border: 2px solid #0A2342;
     padding: 5px;
     width: 10em;
     height: 10em;
-    overflow: scroll;
     margin: 30px 10px 10px 10px;
     text-align: center; 
     text-decoration: none;
-    display: inline-block;
-    box-sizing : border-box;
-  }
-  
-  #blog a:hover {
-    background-color: #55CEA7;
   }
 
   .container3 {
