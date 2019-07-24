@@ -1,4 +1,3 @@
-
 /* For laptops */
 @media only screen and (min-width: 1200px) {
 
@@ -7,8 +6,26 @@
   }
 
   p {
-    max-width: 36em;
+    max-width: 40em;
     padding: 30px;
+    text-align: justify;
+  }
+
+  nav {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .nav1 {
+    display: none;
+  }
+  
+  .nav2 {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+  
+  .nav3 {
+    grid-area: 1 / 2 / span 1 / span 1;
   }
 
   .container1 {
@@ -27,20 +44,19 @@
     padding-bottom: 300px;
   }
 
-  .squash {
-    margin-left: 100px;
-    text-align: right;
-  }
-
   .container2 {
-    background-image: url("../assets/big-wave-right.svg");
+    background-image: url("../assets/large-flat-wave.svg");
+    background-color: rgb(230, 231, 229);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right 28%;
     width: 100%;
   }
 
   .speaking-bkg {
     padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
   }
   
   #speaking a {
@@ -60,20 +76,5 @@
     margin: 30px 10px 10px 10px;
     text-align: center; 
     text-decoration: none;
-  }
-
-  .container3 {
-    background-image: url("../assets/big-left-wave.svg");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    width: 100%;
-  }
-
-  .contact-bkg {
-    width: 50%;
-  }
-
-  .portfolio-bkg {
-    padding-bottom: 300px;
   }
 }
