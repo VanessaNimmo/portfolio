@@ -21,14 +21,6 @@
     width: 100%;
   }
 
-  .container3 {
-    background: #FFFDF7;
-    background-image: url("../assets/left-medium-wave.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 65%;
-    width: 100%;
-  }
-
   .make-space {
     padding-top: 100px;
     padding-bottom: 200px;
@@ -66,14 +58,5 @@
   .blog-bkg {
     background: none;
     text-align: center;
-  }
-
-  .contact-bkg {
-    background: none;
-    padding-top: 100px;
-  }
-
-  .portfolio-bkg {
-    background: none;
   }
 }
